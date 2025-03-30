@@ -1,0 +1,39 @@
+/* Estilos generales */
+body {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+/* Estilos para las tarjetas de pizza */
+.pizza-card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.pizza-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Estilos para los precios */
+.precio {
+    font-weight: bold;
+    color: #dc3545;
+    font-size: 1.2rem;
+}
+
+/* Estilos para los badges */
+.badge-categoria {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+/* Estilos para las imágenes */
+.img-thumbnail {
+    border-radius: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+    margin-top: 50px;
+}

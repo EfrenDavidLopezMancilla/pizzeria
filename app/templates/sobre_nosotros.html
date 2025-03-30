@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}Sobre Nosotros - Pizzería Delizioso{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <h1 class="display-4 text-center mb-4">
+                <i class="fas fa-info-circle text-danger"></i> Sobre Nosotros
+            </h1>
+            
+            <div class="card shadow-sm mb-4">
+                <div class="card-body">
+                    <h2 class="h4 card-title">Nuestra Historia</h2>
+                    <p class="card-text">
+                        Pizzería EFREN nació de la pasión por la auténtica pizza artesanal. 
+                        Desde nuestros inicios, nos hemos dedicado a crear pizzas con los 
+                        ingredientes más frescos y recetas tradicionales que deleitan 
+                        a nuestros clientes.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm mb-4">
+                <div class="card-body">
+                    <h2 class="h4 card-title">Nuestro Compromiso</h2>
+                    <p class="card-text">
+                        Nos comprometemos a ofrecer la mejor calidad en cada pizza que preparamos, 
+                        utilizando ingredientes locales siempre que es posible y manteniendo 
+                        los estándares más altos de preparación.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="h4 card-title">El Creador</h2>
+                    <p class="card-text">
+                        Esta página web fue desarrollada por Efrén López, estudiante de Ingeniería 
+                        en Tecnologías de la Información y Comunicaciones en el Instituto Tecnológico 
+                        de San Juan del Río.
+                    </p>
+                    <p class="card-text">
+                        El proyecto combina su pasión por la tecnología y la gastronomía, 
+                        demostrando cómo la innovación puede aplicarse al mundo culinario.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="{{ url_for('main.home') }}" class="btn btn-danger">
+                    <i class="fas fa-arrow-left me-2"></i> Volver al Inicio
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
